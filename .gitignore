@@ -1,0 +1,19 @@
+.DS_Store
+._*
+.vscode/
+
+__pycache__/
+*.py[cod]
+
+.venv/
+venv/
+env/
+
+# Calculated fields, metrics, and figures are generated locally.
+test_cases/**/output/
+
+# Intermediate mesh files created by the mesh-generation scripts.
+*.msh
+
+tmp/
+scratch/
